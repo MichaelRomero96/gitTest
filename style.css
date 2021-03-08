@@ -1,0 +1,103 @@
+*{
+    margin-top: 20px;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+}
+.containerForm{
+    padding-left: 5%;
+}
+.form{
+    display: grid;
+    grid-template-columns: 20em .05em .05em 20em;
+    row-gap: .05em;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    "nombre . . apellido"
+    "email . . telefono"
+    "direccion direccion direccion direccion"
+    "mensaje mensaje mensaje mensaje";
+}
+
+.name{
+    grid-area: nombre;   
+}
+.lastName{
+    grid-area: apellido;
+}
+.email{
+    grid-area: email;
+}
+.telephone{
+    grid-area: telefono;
+}
+.address{
+    grid-area: direccion;
+}
+
+.message{
+    grid-area: mensaje;
+    height: 6em;
+}
+
+.containerForm h2{
+    color: darkblue;
+    font-size: 30px;
+}
+
+#inputForm_active{
+    border-radius: 6px;
+    width: auto;
+    height: auto;
+    padding: 1em;
+    margin: 1em;
+    background-color: #d4e7ff;
+    border: 0;
+    outline: none;
+}
+#inputForm{
+    border-radius: 6px;
+    width: auto;
+    padding: 1em;
+    margin: 1em;
+    background-color: #5d9be6;
+    border: 0;
+    outline: none;
+}
+::placeholder{
+    color:#023a7e;
+}
+#button{
+    background-color: #002afc;
+    color: #ffffff;
+    padding: 10px 50px;
+    border-radius: 25px;
+    border: 0;
+    margin-top: 0;
+    margin-left: 15em;
+    outline: none;
+}
+#button:hover{
+    background-color: #2649fa;
+    cursor: pointer;
+}
+
+@media (max-width: 935px){
+    .form{
+         display: grid;
+        grid-template-columns: 20em;
+        row-gap: .05em;
+        grid-template-rows: auto;
+        grid-template-areas: 
+        "nombre"
+        "apellido"
+        "email"
+        "telefono"
+        "direccion"
+        "mensaje";
+    }
+    #button{
+        margin-left: 2.5em;
+    }
+    
+}

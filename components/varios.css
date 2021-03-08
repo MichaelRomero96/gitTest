@@ -1,0 +1,55 @@
+*{
+     font-family: Arial;
+}
+
+h2 {
+     color: blue;
+     font-size: 3em;
+     margin: 10px 10px;
+} 
+
+body {
+     padding: 5%;
+}
+
+.contact_form--nombre,.contact_form--apellido,.contact_form--email,.contact_form--telefono {
+     padding: 20px;
+     width: 500px;
+        
+}
+
+.contact_form--nombre,.contact_form--apellido,.contact_form--email,.contact_form--telefono,.contact_form--direccion,.contact_form--mensaje {
+     background: rgba(0,0,255,.1);
+     border-radius: 10px;
+     border: blue;
+     margin: 15px;
+     font-size: 20px;
+}
+
+.contact_form--mensaje {
+     padding: 20px;
+     width: 1075px;
+     height: 200px;
+     background: rgba(0,0,255,.3);
+
+}
+
+.contact_form--direccion {
+     width: 1075px;
+     background: rgba(0,0,255,.2);
+     padding: 20px;
+}
+
+
+::placeholder {
+     color:blue;
+     font-size: 20px;
+}
+.boton {
+     border-radius: 2em;
+     background: blue;
+     color: white;
+     padding: 20px 80px;
+     margin-left: 28%;
+     margin-top: 1%;
+}

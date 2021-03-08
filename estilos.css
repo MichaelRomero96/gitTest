@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,700;1,400&display=swap');
+
+
+*{
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(./img/fondo.jpg);
+    font-family: 'Roboto', sans-serif;
+}
+
+main{
+    max-width: 800px;
+    font-size: 19px;
+    color: #fff;
+    background: linear-gradient(rgb(88, 2, 2), #40b3d3);   
+    width: 500%;
+    margin: auto;
+    padding: 80px;
+    margin-top: 180px;
+    box-shadow: 2px 40px 100px #000;
+}
+
+.control{
+    width: 50%;
+    background: linear-gradient(#09F1EB, #97e7ff);   
+    padding: 8px;
+    border-radius: 35px;
+    margin-bottom: 11px;
+    border: 1px solid #f7f7f7;
+    grid-template-columns: 1fr 1fr;
+    color: rgb(0, 0, 0);
+    box-shadow: 2px 40px 100px #000;
+}
+
+.contro{
+    width: 100%;
+    background: linear-gradient(#09F1EB, #97e7ff);   
+    padding: 20px;
+    border-radius: 20px;
+    margin-bottom: -6px;
+    border: 1px solid #f7f7f7;
+    color:  rgb(0, 0, 0);
+    box-shadow: 2px 40px 100px #000;
+}
+
+.controles{
+    width: 100%;
+    background: linear-gradient(#09F1EB,#97e7ff);   
+    padding: 25px;
+    border-radius: 20px;
+    margin-bottom: 5px;
+    border: 1px solid #f7f7f7;
+    color: rgb(0, 0, 0);
+    box-shadow: 2px 40px 100px #000;
+}
+
+.boton{
+    width: 28%;
+    background-color: white;
+    padding: 18px;
+    color: rgb(255, 255, 255);
+    background: linear-gradient(rgb(88, 2, 2), #40b3d3); 
+    box-shadow: 2px 40px 100px rgb(255, 255, 255); 
+}
+
